@@ -3,15 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(240, 180, 240);
     font-family: 'Poppins', sans-serif;
 }
+
 table,h2,p,button{
     margin-left: 20px;
     font-family: 'Poppins', sans-serif;
 }
 
 table, td, th {
+    background-color: rgb(240, 180, 240);
     border: 1.5px solid black;
     border-collapse: collapse;
     text-align: left;
@@ -40,7 +41,7 @@ p{
 button{
     border-radius: 5px;
     margin-left: 10px;
-    width: 120px;
+    padding: 10px 15px;
     height: 40px;
     text-align: center;
     color: black;
